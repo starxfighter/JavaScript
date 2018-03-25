@@ -11,7 +11,13 @@
         var daysUntilMyBirthday = 60;
 
         for(var x=daysUntilMyBirthday; x > 0;  x--){
-            console.log(x, " days until my birthday. Such a long time.....:(")
+            if( x >= 30){
+                console.log(x, " days until my birthday. Such a long time.....:(");
+            } else if ((x < 30) && (x > 5)){
+                console.log(x, " days until my birthday. It's almost here......: |");
+            } else {
+                console.log(x, " days until my birthday. AHAHAHAH I can't stand it......");
+            }
         }
         console.log("*&*&^^ HAPPY BIRTHDAY!!! *&^^**^%%^&")
 
