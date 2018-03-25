@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Range Print</title>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <script>
+        function printRange(start, end, inc){
+            console.log("Start: ", start, "End: ", end, "Inc: ", inc);
+            if(inc == null){
+                inc = 1;
+            }
+            if(end == null){
+                end = start;
+                start = 0;
+            }
+            for(var x = start; x < end; x= x + inc){
+                console.log("X value ", x);
+            }
+        }
+
+        printRange(2, 10, 2);  
+        printRange(-5, 10, 2);  
+        printRange(4, 8); 
+        printRange(4); 
+
+    </script>
+    
+</body>
+</html>
