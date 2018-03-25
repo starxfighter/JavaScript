@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>For A Few Billion</title>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <script>
+        var days = 30;
+        var pay = 0.01;
+
+        for(var x=1; x < days;  x++){
+            console.log("pay before", pay);
+            pay = pay + pay;
+            console.log("pay after", pay);
+        }
+        console.log("You made: $", pay);
+
+        var y= 0.01;
+        var days = 1;
+        while(y < 10000){
+            console.log("Day ", days);
+            days++   
+            console.log("Pay ", y);
+            y = y + y; 
+        }
+        console.log("It would take ", days, " to make $10000");
+        
+
+    </script>
+    
+</body>
+</html>
