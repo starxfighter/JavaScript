@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>I Do Declare</title>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <script>
+        var HOUR = 7;
+        var MINUTE = 15;
+        var PERIOD = "PM";
+        var temp = 0;
+
+        if(MINUTE < 30){
+            if(PERIOD === "AM"){
+                console.log("It's just after ", HOUR, "in the morning");
+            } else {
+                console.log("it's just after", HOUR, "in the evening");
+            }
+        }else if(MINUTE > 30){
+            if((HOUR + 1) === 13){
+                temp = 1;
+            } else {
+                temp = HOUR + 1;
+            }
+            if(PERIOD === "AM"){
+                console.log("It's almost ", temp, "in the morning");
+            } else {
+                console.log("it's almost", temp, "in the evening");
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
