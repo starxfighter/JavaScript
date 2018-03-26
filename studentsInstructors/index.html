@@ -38,8 +38,12 @@
         function classroom(){
             for(var key in users){
                 console.log(key);
+                var loop = 1;
                 for(var inkey in users[key]){
-                console.log("     ", users[key][inkey].first_name, users[key][inkey].last_name);
+                    var nameLength = users[key][inkey].first_name.length + users[key][inkey].last_name.length;
+                    // console.log("inkey", inkey);
+                    console.log(loop, users[key][inkey].first_name, users[key][inkey].last_name, nameLength);
+                    loop += 1;
                 }
             }
         }
