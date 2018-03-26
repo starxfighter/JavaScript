@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Numbers Only</title>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    <script>
+        function numbersOnly(arr){
+            var narr = [];
+            for(var x=0; x < arr.length; x++){
+                if((typeof arr[x]) === "number"){
+                    narr.push(arr[x]);
+                }
+            }
+        return(narr);
+        }
+        var newArray = numbersOnly([1, "apple", -3, "orange", 0.5]);
+        console.log(newArray);
+
+        function stringPop(arr){
+            for(var x=0; x < arr.length; x++){
+                console.log("index: ", x);
+                console.log("Typeof: ", typeof arr[x]);
+                if((typeof arr[x]) !== "number"){
+                    console.log("popping: ", arr[x]);
+                    // arr.pop(arr[x]);
+                    arr.splice(x,1);
+                    console.log("updated array", arr);
+                }
+            }
+        }
+        var arr = [1, "apple", -3, "orange", 0.5];
+        stringPop(arr);
+        console.log(arr);
+
+    </script>
+</body>
+</html>
