@@ -1,0 +1,47 @@
+body{
+    position:relative;
+}
+
+.line{
+    margin: 50px 0px;
+    height:1px;
+    width: 200px;
+    border-bottom: 5px solid blue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.button{
+    margin: 10px 10px 0px 10px;
+    height: 30px;
+    width: 130px;
+    box-shadow: 2px 2px gray;
+} 
+
+.bubbles{
+    display:inline-block;
+    position:relative;
+    height:100px;
+    width:120px;
+    top:45px;
+}
+
+.huge{
+    height: 300px;
+    width: 300px;
+}
+
+.textParagraph{
+    display:inline-block;
+}
+
+.display{
+    display:inline-block;
+}
+
+.info{
+    margin-bottom:70px;
+}
