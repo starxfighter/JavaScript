@@ -1,0 +1,23 @@
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+}
+
+.button{
+    margin: 10px 10px 0px 10px;
+    height: 30px;
+    width: 130px;
+    box-shadow: 2px 2px gray;
+    background-color: yellow;
+} 
+
+.box{
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+    background-color: green;
+    padding-left: 93px;
+    padding-right: 142px;
+    margin-top: 10px;
+}
