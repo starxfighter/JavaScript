@@ -1,0 +1,36 @@
+#wrapper{
+    width: 970px;
+    background-color: grey;
+    padding: 10px;
+}
+table td th{
+    border: 2px solid black;
+}
+
+table th, table td{
+    padding: 10px;
+    text-align: left;
+}
+.userentry input{
+    display: block;
+    margin: 20px;
+}
+
+.add-row{
+    /* display: block; */
+    background-color: blue;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    /* margin-left: 200px; */
+    font-size: 14pt;
+    /* padding-left: 80px; */
+}
+.userentry .add-row{
+    margin-left: 300px;
+}
+h1{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    margin-top: 50px;
+}
