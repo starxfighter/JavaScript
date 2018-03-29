@@ -1,0 +1,70 @@
+#wrapper{
+    width: 970px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.userentry input textarea{
+    display: block;
+    margin: 20px;
+    padding-left: 20px;
+}
+textarea{
+    width: 240px;
+    height: 100px;
+}
+.userentry label{
+    display: block;
+    font-size: 16pt;
+    margin: 10px;
+}
+
+.add-row{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 18pt;
+}
+.userentry .add-row{
+    margin-left: 272px;
+    margin-top: 40px;
+}
+.userentry{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border-right-color: black;
+    border-right-style: dashed;
+    border-right-width: 2px;
+}
+h1{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    margin-top: 50px;
+}
+.container div{
+    display: block;
+    background-color:rgb(139, 133, 133);
+    width: 300px;
+    height: 157px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding-left: 20px;
+}
+.container h3{
+    font-size: 16pt;
+    margin: 30px;
+}
+.container h2{
+    font-size: 18pt;
+}
+.container h4{
+    font-size:22pt;
+    color: blue;
+    text-decoration: underline;
+}
+.container{
+    display: inline-block;
+    vertical-align: top;
+}
